@@ -1,0 +1,32 @@
+/*  Here is the colors variables */
+:root {
+  --primary-color: #cfe6ff;  
+  --secondary-color: #a9adc1;  
+  --background-color: #f1f1f1;  
+  --footer-color:#b5b5b5;
+  --bg-footerpcolor:#323232;
+  --text-color: #fff; 
+  --background:#1f2028 ; 
+  --blog-item-hover-color:#444;
+  --blog-item-date-color:#a0a0a0;
+  --blog-item-p:#666;
+  --span-bg-color:#dae512;
+  --span-color:#785353;
+  --article-blog-color:#f2f2f2;
+  --article-blog-after:#ffd700;
+
+}
+
+/* The fonts variables */
+:root {
+  --second-font: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  --main-font: 'Montserrat', sans-serif; 
+  --para-font: 'Coming Soon', cursive;
+  --blog-font: 'Merienda', cursive;
+  --chew-font: 'Chewy', system-ui;
+  --box-font:"Edu TAS Beginner", cursive;
+
+
+
+
+}

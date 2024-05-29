@@ -1,0 +1,95 @@
+@import url('./colorANDfont.css');
+
+.blog-bost {
+    padding: 30px;
+    margin-top: 30px;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    gap: 30px;
+}
+
+.left-side-blog {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.blog-img {
+    text-align: center;
+    position: relative;
+}
+
+.text-bost h2 {
+    color: var(--secondary-color);
+    margin-top: 20px;
+}
+
+.text-bost h3,.text-bost h4 {
+    line-height: 0px;
+    color: var(--secondary-color);
+}
+
+.article-blog {
+    padding: 20px;
+    text-align: left;
+    color: var(--secondary-color);
+    font-family: var(--para-font);
+}
+
+.article-blog h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.article-blog p {
+    line-height: 1.6;
+    margin: 20px 0;
+    text-align: justify;
+}
+.article-blog {
+    position: relative;
+    padding-left: 20px;  
+    font-family: var(--main-font);
+    color: var(--article-blog-color);  
+    font-style: italic;  
+    line-height: 1.6;
+}
+
+.article-blog::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    width: 5px; 
+    background-color: var(--article-blog-after);  
+}
+
+span {
+    font-size: 18px;
+    background-color:var(--span-bg-color) ;
+    color: var(--span-color);
+    padding: 0 5px;
+}
+
+.footer {
+    text-align: center;
+    margin-top: 20px;
+}
+
+
+@media (max-width: 768px) {
+    .blog-bost {
+        grid-template-columns: 1fr;
+        gap: 20px;
+    }
+
+    .right-side-blog {
+        padding: 10px;
+    }
+
+    .right-side-blog p {
+        margin: 20px 0;
+    }
+}
