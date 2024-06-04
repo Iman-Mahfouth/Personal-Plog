@@ -22,8 +22,7 @@
     flex-wrap: wrap;
     width: 40%;
     padding: 10px;
-    color: var(--text-color);
-     
+    color: var(--text-color);    
 }
 
 .text h3 {
@@ -40,6 +39,6 @@
     grid-area: ft;
     text-align: center;
     padding: 10px;
-     color: var(--footer-color);
-     background-color: var(--bg-footerpcolor);
+    color: var(--footer-color);
+    background-color: var(--bg-footerpcolor);
 }
